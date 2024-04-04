@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pig Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Workbench&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Flavors&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Workbench&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" type="image/png" href="resources/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Flavors&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta&display=swap"
+      rel="stylesheet"
+    />
+    <h1>THE PIG GAME</h1>
+    <div class="refer">
+      <a href="#rules" class="ruleslink"> <p class="ruleslink">Rules</p></a>
+    </div>
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <picture> </picture>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+      <img src="resources/dice-5.png" alt="Playing dice" class="dice" />
+      <div class="buttoncontainer">
+        <a href="index.html" class="newgamebtn">
+          <button class="btn btn--new">🔄 New game</button>
+        </a>
+        <button class="btn btn--roll">🎲 Roll dice</button>
+        <button class="btn btn--hold">📥 Hold</button>
+      </div>
+    </main>
+    <section class="rulessection" id="rules">
+      <div class="rules">RULES</div>
+      <p class="rules">
+        <b>
+          Objective : <br />
+          - The goal of Pig is to be the first player to reach or exceed a
+          predetermined point total, typically 50 points.
+          <br />
+          Equipment : <br />
+          - You need a standard six-sided die and a method for keeping score,
+          such as pen and paper or a scorekeeping app.
+          <br />
+          Starting the Game : <br />
+          - Decide who goes first, typically by rolling the die with the highest
+          number, or by mutual agreement. <br />
+          - The first player begins their turn by rolling the die.
+          <br />
+          Taking Turns : <br />
+          - On a player's turn, they roll the die and accumulate points based on
+          the value rolled. <br />
+          - The player can continue rolling as long as they want, adding the
+          value of each roll to their turn total. <br />
+          - At any point during their turn, the player can choose to stop
+          rolling and add the accumulated points to their overall score.
+          <br />
+          Scoring : <br />
+          - Points are accumulated during a player's turn and added to their
+          overall score when they choose to end their turn. <br />
+          - If a player rolls a 1, they lose all points accumulated during that
+          turn, and their turn ends immediately. <br />
+          - Rolling a 1 also passes the turn to the next player.
+          <br />
+          Winning : <br />
+          - The first player to reach or exceed the predetermined point total
+          (usually 50 points) wins the game. <br />
+          - If multiple players reach the winning point total in the same round,
+          the player with the highest score wins. <br />
+          - The game ends immediately once a player wins.
+        </b>
+        <br />
+      </p>
+    </section>
+    <div class="mailimg">
+
+      <p> <b>Contact Me &nbsp </b></p>
+      <a href="mailto:tayyabkhangk4734@gmail.com">
+        <img src="resources/mail.png" alt="mail" srcset="" class="mailimg"> 
+      </a>
+    </div>
+    <div class="footer">
+      <p class="footer">© Made by Tayyab Khan</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
